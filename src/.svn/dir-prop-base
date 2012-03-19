@@ -1,0 +1,12 @@
+K 10
+svn:ignore
+V 65
+*.gcda
+cppcheck-result-*
+pindel
+gmon.out
+pindel-debug
+*.gcno
+*.d
+
+END

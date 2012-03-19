@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/pindel/!svn/ver/273/trunk
+END
+COPYING.txt
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/pindel/!svn/ver/85/trunk/COPYING.txt
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/pindel/!svn/ver/241/trunk/INSTALL
+END
+REINSTALL.sh
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/pindel/!svn/ver/212/trunk/REINSTALL.sh
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/pindel/!svn/ver/260/trunk/Makefile
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/pindel/!svn/ver/229/trunk/README
+END

@@ -1,0 +1,305 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/pindel/!svn/ver/273/trunk/src
+END
+output_sorter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/pindel/!svn/ver/272/trunk/src/output_sorter.cpp
+END
+refreader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/pindel/!svn/ver/239/trunk/src/refreader.cpp
+END
+reporter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/pindel/!svn/ver/272/trunk/src/reporter.cpp
+END
+logdef.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/pindel/!svn/ver/141/trunk/src/logdef.h
+END
+reader.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/pindel/!svn/ver/201/trunk/src/reader.h
+END
+searchshortinsertions.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/pindel/!svn/ver/197/trunk/src/searchshortinsertions.h
+END
+shifted_vector.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/pindel/!svn/ver/165/trunk/src/shifted_vector.cpp
+END
+read_buffer.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/pindel/!svn/ver/202/trunk/src/read_buffer.h
+END
+pindel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/pindel/!svn/ver/273/trunk/src/pindel.cpp
+END
+farend_searcher.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/pindel/!svn/ver/248/trunk/src/farend_searcher.cpp
+END
+search_tandem_duplications.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/pindel/!svn/ver/249/trunk/src/search_tandem_duplications.cpp
+END
+search_tandem_duplications_nt.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/pindel/!svn/ver/249/trunk/src/search_tandem_duplications_nt.cpp
+END
+bddata.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/pindel/!svn/ver/239/trunk/src/bddata.cpp
+END
+control_state.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/pindel/!svn/ver/239/trunk/src/control_state.cpp
+END
+search_deletions_nt.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/pindel/!svn/ver/131/trunk/src/search_deletions_nt.h
+END
+searchdeletions.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/pindel/!svn/ver/197/trunk/src/searchdeletions.h
+END
+parameter.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/pindel/!svn/ver/195/trunk/src/parameter.h
+END
+search_inversions_nt.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/pindel/!svn/ver/249/trunk/src/search_inversions_nt.cpp
+END
+search_inversions.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/pindel/!svn/ver/107/trunk/src/search_inversions.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/pindel/!svn/ver/253/trunk/src/Makefile
+END
+SAM_2_PINDEL_cin_2011Sept26.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/pindel/!svn/ver/239/trunk/src/SAM_2_PINDEL_cin_2011Sept26.cpp
+END
+output_file_data.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/pindel/!svn/ver/141/trunk/src/output_file_data.h
+END
+search_variant.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/pindel/!svn/ver/197/trunk/src/search_variant.h
+END
+vcfcreator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/pindel/!svn/ver/263/trunk/src/vcfcreator.cpp
+END
+searcher.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/pindel/!svn/ver/84/trunk/src/searcher.h
+END
+reader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/pindel/!svn/ver/272/trunk/src/reader.cpp
+END
+update_target_files.sh
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/pindel/!svn/ver/243/trunk/src/update_target_files.sh
+END
+output_sorter.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/pindel/!svn/ver/131/trunk/src/output_sorter.h
+END
+searchshortinsertions.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/pindel/!svn/ver/239/trunk/src/searchshortinsertions.cpp
+END
+refreader.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/pindel/!svn/ver/119/trunk/src/refreader.h
+END
+read_buffer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/pindel/!svn/ver/239/trunk/src/read_buffer.cpp
+END
+reporter.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/pindel/!svn/ver/212/trunk/src/reporter.h
+END
+logtypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/pindel/!svn/ver/103/trunk/src/logtypes.h
+END
+search_deletions_nt.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/pindel/!svn/ver/249/trunk/src/search_deletions_nt.cpp
+END
+searchdeletions.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/pindel/!svn/ver/239/trunk/src/searchdeletions.cpp
+END
+refactoring_style_manual.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/pindel/!svn/ver/197/trunk/src/refactoring_style_manual.txt
+END
+shifted_vector.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/pindel/!svn/ver/165/trunk/src/shifted_vector.h
+END
+pindel.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/pindel/!svn/ver/272/trunk/src/pindel.h
+END
+farend_searcher.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/pindel/!svn/ver/160/trunk/src/farend_searcher.h
+END
+parameter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/pindel/!svn/ver/239/trunk/src/parameter.cpp
+END
+search_tandem_duplications.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/pindel/!svn/ver/107/trunk/src/search_tandem_duplications.h
+END
+search_tandem_duplications_nt.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/pindel/!svn/ver/131/trunk/src/search_tandem_duplications_nt.h
+END
+search_inversions.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/pindel/!svn/ver/256/trunk/src/search_inversions.cpp
+END
+bddata.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/pindel/!svn/ver/183/trunk/src/bddata.h
+END
+changelog.txt
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/pindel/!svn/ver/270/trunk/src/changelog.txt
+END
+control_state.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/pindel/!svn/ver/183/trunk/src/control_state.h
+END
+output_file_data.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/pindel/!svn/ver/239/trunk/src/output_file_data.cpp
+END
+search_variant.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/pindel/!svn/ver/249/trunk/src/search_variant.cpp
+END
+search_inversions_nt.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/pindel/!svn/ver/131/trunk/src/search_inversions_nt.h
+END
+searcher.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/pindel/!svn/ver/266/trunk/src/searcher.cpp
+END
