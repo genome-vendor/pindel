@@ -1,0 +1,13 @@
+Source: pindel0.2.4o
+Section: science
+Priority: optional
+Build-Depends: zlib1g-dev, samtools, libbam-dev
+Build-Depends-Indep: python
+Maintainer: Pindel Developers <pindel-devel@trac.nbic.nl>
+Standards-Version: 3.8.3
+Homepage: https://trac.nbic.nl/pindel/
+
+Package: pindel0.2.4o
+Architecture: amd64
+Depends: samtools
+Description: Pindel can detect breakpoints of large deletions, medium sized insertions, inversions, tandem duplications and other structural variants at single-based resolution from next-gen sequence data. It uses a pattern growth approach to identify the breakpoints of these variants from paired-end short reads. https://trac.nbic.nl/pindel/

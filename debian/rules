@@ -1,4 +1,22 @@
 #!/usr/bin/make -f
 
+PKG=pindel0.2.4o
+VER=0.2.4o
+SAMTOOLS=/usr/include/samtools
+
 %:
 	dh $@
+
+build:
+	cd src
+	make SAMTOOLS=${SAMTOOLS}
+	g++ -O3 vcfcreator.cpp -o pindel2vcf
+	g++ -O3 SAM_2_PINDEL_cin_2011Sept26.cpp -o sam2pindel
+
+override_dh_auto_install:
+#	dh_auto_install
+	echo "copy files now!"
+	install -m755 src/pindel /usr/bin/pindel${VER}
+	install -m755 src/pindel2vcf /usr/bin/pindel2vcf${VER}
+	install -m755 src/sam2pindel /usr/bin/sam2pindel${VER}
+
