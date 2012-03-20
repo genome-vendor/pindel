@@ -1,0 +1,10 @@
+#!/bin/sh
+set -e
+
+if [ "$1" = "configure" ]; then
+    if [ ! -e /usr/bin/pindel ]; then
+        update-alternatives --install /usr/bin/pindel pindel /usr/bin/pindel0.2.4 1
+        update-alternatives --install /usr/bin/pindel2vcf pindel2vcf /usr/bin/pindel2vcf0.2.4 1
+        update-alternatives --install /usr/bin/sam2pindel sam2pindel /usr/bin/sam2pindel0.2.4 1
+    fi
+fi
