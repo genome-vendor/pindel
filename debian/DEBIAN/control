@@ -1,6 +1,8 @@
 Package: pindel0.2.4o
+Version: 0.2.4-1
 Provides: pindel
-Architecture: all
-Depends: 
+Maintainer: pindel-devel@trac.nbic.nl
+Architecture: amd64
+Depends: zlib1g, samtools, libbam-dev
 Suggests:
 Description: Pindel can detect breakpoints of large deletions, medium sized insertions, inversions, tandem duplications and other structural variants at single-based resolution from next-gen sequence data. It uses a pattern growth approach to identify the breakpoints of these variants from paired-end short reads. https://trac.nbic.nl/pindel/
