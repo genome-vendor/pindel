@@ -1,8 +1,0 @@
-#!/bin/sh
-set -e
-
-if [ \( "$1" = "upgrade" -o "$1" = "remove" \) -a -L /usr/bin/pindel ]; then
-    rm -f /usr/bin/pindel
-    rm -f /usr/bin/pindel2vcf
-    rm -f /usr/bin/sam2pindel
-fi
