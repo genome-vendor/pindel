@@ -16,11 +16,11 @@ build:
 override_dh_auto_install:
 #	dh_auto_install
 	echo "copy files now!"
-	mkdir -p ${DEB_DIR}/usr/lib/${PKG}/usr/bin
+	mkdir -p ${DEB_DIR}/usr/lib/${PKG}/bin
 	mkdir -p ${DEB_DIR}/usr/bin
-	for junk in 'pindel' 'pindel-debug' 'pindel2vcf' 'sam2pindel'; do \
-		install -m755 src/$${junk} ${DEB_DIR}/usr/lib/${PKG}/usr/bin/$${junk}; \
-		echo "export PATH=/usr/lib/${PKG}/usr/bin/:\$$PATH; $$junk" >  ${DEB_DIR}/usr/bin/$${junk}${VER}; \
+	for filename in 'pindel' 'pindel-debug' 'pindel2vcf' 'sam2pindel'; do \
+		install -m755 src/$${filename} ${DEB_DIR}/usr/lib/${PKG}/bin/$${filename}; \
+		echo "export PATH=/usr/lib/${PKG}/bin/:\$$PATH; $$filename" >  ${DEB_DIR}/usr/bin/$${filename}${VER}; \
 		done
 
 
