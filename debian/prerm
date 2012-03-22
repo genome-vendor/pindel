@@ -2,8 +2,8 @@
 set -e
 
 if [ \( "$1" = "upgrade" -o "$1" = "remove" \) -a -L /usr/bin/pindel ]; then
-    rm -f /usr/bin/pindel
-    rm -f /usr/bin/pindel-debug
-    rm -f /usr/bin/pindel2vcf
-    rm -f /usr/bin/sam2pindel
+    update-alternatives --remove pindel /usr/bin/pindel0.2.4o
+    update-alternatives --remove pindel-debug /usr/bin/pindel-debug0.2.4o
+    update-alternatives --remove pindel2vcf /usr/bin/pindel2vcf0.2.4o
+    update-alternatives --remove sam2pindel /usr/bin/sam2pindel0.2.4o
 fi
