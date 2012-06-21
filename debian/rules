@@ -1,29 +1,34 @@
 #!/usr/bin/make -f
 
-PKG=pindel0.2.4o
+PRG=pindel
 VER=0.2.4o
-SAMTOOLS=../debian/samtools_headers/   # relative to the src subdirectory
-DEB_DIR=debian/${PKG}
+BIN_LIST=src/pindel \
+         src/pindel-debug \
+         src/pindel2vcf \
+         src/sam2pindel
+PKG=$(PRG)$(VER)
+DEB_DIR=debian/$(PKG)
+PKG_LIB_DIR=/usr/lib/$(PKG)
+BIN_WRAPPER=\
+'\#!/bin/sh\n'\
+'export PATH=$(PKG_LIB_DIR)/bin:$$PATH\n'\
+"exec $${BASE_BIN}" '"$$@"'
 
 %:
 	dh $@
 
-build:
-	cd src; make SAMTOOLS=${SAMTOOLS}
+override_dh_auto_build:
+	cd src; make SAMTOOLS=../debian/samtools_headers/
 	cd src; g++ -O3 vcfcreator.cpp -o pindel2vcf
 	cd src; g++ -O3 SAM_2_PINDEL_cin_2011Sept26.cpp -o sam2pindel
 
 override_dh_auto_install:
-#	dh_auto_install
-	echo "copy files now!"
-	mkdir -p ${DEB_DIR}/usr/lib/${PKG}/bin
-	mkdir -p ${DEB_DIR}/usr/bin
-	for filename in 'pindel' 'pindel-debug' 'pindel2vcf' 'sam2pindel'; do \
-		install -m755 src/$${filename} ${DEB_DIR}/usr/lib/${PKG}/bin/$${filename}; \
-		echo "export PATH=/usr/lib/${PKG}/bin/:\$$PATH; exec $$filename" >  ${DEB_DIR}/usr/bin/$${filename}${VER}; \
-		done
-
-
+	mkdir -p $(DEB_DIR)/usr/bin $(DEB_DIR)$(PKG_LIB_DIR)/bin
+	for BIN in $(BIN_LIST); do \
+		BASE_BIN=$$(basename $${BIN});\
+		install -m 755 $${BIN} $(DEB_DIR)$(PKG_LIB_DIR)/bin/$${BASE_BIN};\
+		echo $(BIN_WRAPPER) | sed 's/^ *//' > $(DEB_DIR)/usr/bin/$${BASE_BIN}$(VER);\
+	done
 
 override_dh_auto_test:
-	echo "This version had no test/ subdirectory.  Skipping tests"
+	echo 'Source did not include the test directory that the Makefile expects.'
