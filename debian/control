@@ -1,7 +1,7 @@
 Source: pindel0.2.4o
 Section: science
 Priority: optional
-Build-Depends: zlib1g-dev, samtools, libbam-dev, cppcheck
+Build-Depends: realpath, zlib1g-dev, samtools, libbam-dev, cppcheck
 Build-Depends-Indep: python
 Maintainer: Pindel Developers <pindel-devel@trac.nbic.nl>
 Standards-Version: 3.8.3
