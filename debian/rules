@@ -32,3 +32,6 @@ override_dh_auto_install:
 
 override_dh_auto_test:
 	echo 'Source did not include the test directory that the Makefile expects.'
+
+override_dh_strip:
+	echo "Do not create a *dbgsym*.ddeb package."
